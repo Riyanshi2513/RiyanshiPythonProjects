@@ -1,0 +1,5 @@
+print("ppppp  y   y  tttttt  h   h  ooooo  n   n")sep=' '
+print("p   p   y y     t     h   h  o   o  nn  n")sep=' '
+print("ppppp    y      t     hhhhh  o   o  n n n")sep=' '
+print("p       y       t     h   h  o   o  n  nn")sep=' '
+print("p       y       t     h   h  ooooo  n   n")sep=' '
