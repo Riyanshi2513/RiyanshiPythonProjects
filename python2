@@ -1,0 +1,38 @@
+import random
+num1=int (input("Enter a number"))
+num2=int (input("Enter another number"))
+op = random.randint(0, 2)
+op_list = ['*', '+', '-']
+if op == 0:
+  rhs=num1*num2
+if op == 1:
+  rhs=num1+num2
+if op == 2:
+  rhs=num1-num2
+print("Can you tell the missing operatiors?")
+que=str(num1) + '_' + str(num2) + '=' +str(rhs)
+ans=input(que)
+if ans == op_list[op]:
+  print("Well done")
+else:
+    print("Incorrect answer")
+print("WARNING:Time for a HARDER LEVEL!")
+num3= random.randint(1,100)
+op1=random.randint(0,2)
+op2=random.randint(0,1)
+if op1 == 0:
+  rhs= num1*num2
+if op1 == 1:
+  rhs= num1+num2
+if op1 == 2:
+  rhs= num1-num2
+if op2 == 0:
+  rhs= rhs+num3
+if op2 == 1:
+  rhs= rhs-num3
+que=str(num1)+'_'+str(num2)+'_'+str(num3)+'='+str(rhs)
+ans=input(que)
+if ans[0]==op_list[op1]and ans[1]==op_list[op2]:
+  print("well done")
+else:
+    print("Incorrect answer")
